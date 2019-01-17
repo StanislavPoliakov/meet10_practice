@@ -20,15 +20,6 @@ public class Entry {
         isLarge = false;
     }
 
-    public void update(String title) {
-        this.title = title;
-    }
-
-    public void update(String title, String text) {
-        this.title = title;
-        this.text = text;
-    }
-
     public void setTimeStamp(String timeStamp) {
         this.timeStamp = timeStamp;
 
